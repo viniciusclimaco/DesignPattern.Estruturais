@@ -11,7 +11,7 @@ namespace Decorator.ComponenteConcreto
         }
         public string Adicionais()
         {
-            return $"Preparando um sanduíche: {_nome}";             
+            return $"Preparando um sanduíche: {_nome} com pão com carne";             
         }
         public decimal Valor()
         {            
