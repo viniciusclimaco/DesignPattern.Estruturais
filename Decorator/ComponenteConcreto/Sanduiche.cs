@@ -2,7 +2,7 @@
 
 namespace Decorator.ComponenteConcreto
 {
-    internal class Sanduiche : ISanduiche
+    public class Sanduiche : ISanduiche
     {
         private string _nome { get; set; }
         public Sanduiche(string nome)
